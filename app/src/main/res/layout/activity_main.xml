@@ -11,26 +11,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/customborder"
         android:layout_margin="16dp"
         android:gravity="center"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="200dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/ucaldas" />
-
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/mision" />
-
+            android:src="@drawable/logo" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/customborder"
         android:layout_margin="16dp"
         android:gravity="center_vertical"
         android:orientation="vertical">
@@ -43,6 +39,7 @@
             android:textColor="@color/text_blue"/>
 
         <EditText
+            android:id="@+id/editUserName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="example@domain.com"
@@ -56,17 +53,20 @@
             android:textColor="@color/text_blue"/>
 
         <EditText
+            android:id="@+id/editPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="your password"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck"
+            android:inputType="textPassword"/>
 
         <Button
+            android:id="@+id/botonLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/test_login"
-            android:textStyle="bold" />
-
+            android:textStyle="bold"
+            android:onClick="onLogin"/>
 
     </LinearLayout>
 

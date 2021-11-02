@@ -11,20 +11,15 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:gravity="center"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="400dp"
-            android:layout_height="400dp"
-            android:src="@drawable/ucaldas" />
-
-        <ImageView
-            android:layout_width="400dp"
-            android:layout_height="400dp"
-            android:src="@drawable/mision" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo" />
 
 
     </LinearLayout>

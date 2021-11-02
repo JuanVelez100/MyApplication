@@ -3,4 +3,6 @@
     <string name="test_username">Usuario</string>
     <string name="test_password">Contraseña</string>
     <string name="test_login">Iniciar</string>
+    <string name="test_welcome">Bienvenido</string>
+    <string name="test_user">Juan</string>
 </resources>

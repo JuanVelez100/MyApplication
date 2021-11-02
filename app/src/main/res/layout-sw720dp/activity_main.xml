@@ -16,14 +16,9 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="400dp"
-            android:layout_height="400dp"
-            android:src="@drawable/ucaldas" />
-
-        <ImageView
-            android:layout_width="400dp"
-            android:layout_height="400dp"
-            android:src="@drawable/mision" />
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:src="@drawable/logo" />
 
 
     </LinearLayout>
