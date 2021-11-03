@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Mi Aplicación</string>
     <string name="test_username">Usuario</string>
+    <string name="test_userExample">ejemplo@dominio.com</string>
     <string name="test_password">Contraseña</string>
     <string name="test_login">Iniciar</string>
     <string name="test_welcome">Bienvenido</string>
     <string name="test_user">Juan</string>
+    <string name="test_errorlogin">Usuario o contraseña invalidas</string>
 </resources>
