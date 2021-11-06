@@ -60,4 +60,13 @@ class HomeActivity : AppCompatActivity() {
         }
     }
 
+    fun Prueba2(view: android.view.View) {
+
+        Snackbar.make(view, "Prueba 2", Snackbar.LENGTH_LONG)
+            .setAction("Action", null)
+            .show()
+
+    }
+
+
 }

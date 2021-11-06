@@ -76,11 +76,15 @@
             android:onClick="Prueba"
             />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="150dp"
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="100dp"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/logo" />
+            android:background="@color/text_blue"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/logo"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:onClick="Prueba2"/>
 
     </LinearLayout>
 
@@ -92,7 +96,8 @@
         android:layout_gravity="end|bottom"
         android:layout_margin="16dp"
         android:backgroundTint="@color/text_blue"
-        android:src="@drawable/logo"
+        android:src="@android:drawable/ic_input_add"
+        tools:ignore="SpeakableTextPresentCheck"
         />
 
 
