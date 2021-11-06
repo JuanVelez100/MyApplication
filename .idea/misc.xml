@@ -13,9 +13,16 @@
         <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout-land/activity_main.xml" value="0.19047619047619047" />
         <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.13059250302297462" />
         <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.12222906403940886" />
-        <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.225" />
-        <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_floting.xml" value="0.22" />
+        <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_fragment.xml" value="0.225" />
+        <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_floting.xml" value="0.225" />
+        <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment.xml" value="0.225" />
+        <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_first.xml" value="0.225" />
+        <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_second.xml" value="0.225" />
         <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/menu/menu_main_activity.xml" value="0.33" />
+        <entry key="..\:/Users/juand/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11197916666666667" />
       </map>
     </option>
   </component>

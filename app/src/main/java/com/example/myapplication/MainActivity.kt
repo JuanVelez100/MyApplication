@@ -27,16 +27,17 @@ class MainActivity : AppCompatActivity() {
         editPassword = findViewById(R.id.editPassword);
     }
 
-    fun onLogin(btnLogin : View){
+    fun onLogin(view : View){
 
         var username = editUserName!!.text.toString();
         var password = editPassword!!.text.toString();
 
         if(username == "juan@gmail.com" &&  password == "1234"){
 
-             AlertDialog.Builder(this)
-                .setTitle(resources.getString(R.string.test_welcome)).setMessage(resources.getString(R.string.test_user))
-                .setPositiveButton("Ok",positiveButton).setNegativeButton("Cancel",negativeButton).create().show();
+            val intent = Intent(this,HomeActivity::class.java);
+            startActivity(intent)
+
+           //AlertDialog.Builder(this).setTitle(resources.getString(R.string.test_welcome)).setMessage(resources.getString(R.string.test_user)).setPositiveButton("Ok",positiveButton).setNegativeButton("Cancel",negativeButton).create().show();
 
             Toast.makeText(applicationContext,resources.getString(R.string.test_welcome),Toast.LENGTH_LONG).show();
 
@@ -79,8 +80,6 @@ class MainActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
-
-
 
 
 }
